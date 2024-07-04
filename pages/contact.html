@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hazelnut Books - Contact</title>
+    <link rel="stylesheet" href="../styles/contact-style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="../pictures/favicon.png" type="image/png">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo"><img src="../pictures/logo.png" id="titlepic">Get in Touch!</div>
+            <div class="menu-icon" id="menu-icon">
+                &#9776;
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="flexbox">
+        <div class="flex-content" data-aos="fade-left">
+            <h2>Join Our Community!</h2>
+            <div class="text-container">
+                Hazlenut Books is more than a publisher; we are a 
+                community of passionate individuals committed to 
+                nurturing young talent and promoting literacy. Whether 
+                you're a budding author, a parent eager to share stories 
+                with your children, or part of the global diaspora 
+                wanting to connect through literature, we invite you 
+                to join us in our mission.
+            </div>
+        </div>
+        <div class="flex-content" data-aos="fade-right">
+            <h2>Get In Touch</h2>
+            <div class="text-container">
+                For inquiries, collaborations, or submissions, please 
+                contact us:
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            AOS.init({
+                offset: 200,
+                duration: 1000,
+                easing: 'ease-in-out',
+                once: true // Optional: ensures animation happens only once
+            });
+        });
+    </script>
+</body>
+</html>
